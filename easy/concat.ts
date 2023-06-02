@@ -1,0 +1,1 @@
+type Concat<T extends any[] | typeof tuple, U extends any[] | typeof tuple> = [...T, ...U]
